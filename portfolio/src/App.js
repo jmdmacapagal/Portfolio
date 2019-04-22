@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './components/Header'
 import Showcase from './components/Showcase'
+import Portfolio from './components/Portfolio'
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Header />
       <Showcase />
+      <Portfolio />
     </div>
   )
 }
